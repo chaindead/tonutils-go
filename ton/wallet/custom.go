@@ -3,8 +3,8 @@ package wallet
 import (
 	"context"
 	"crypto/ed25519"
-	"github.com/xssnick/tonutils-go/tlb"
-	"github.com/xssnick/tonutils-go/tvm/cell"
+	"github.com/chaindead/tonutils-go/tlb"
+	"github.com/chaindead/tonutils-go/tvm/cell"
 )
 
 type ConfigCustom interface {

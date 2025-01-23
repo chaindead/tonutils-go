@@ -6,7 +6,7 @@ import (
 	"math/big"
 	"reflect"
 
-	"github.com/xssnick/tonutils-go/tvm/cell"
+	"github.com/chaindead/tonutils-go/tvm/cell"
 )
 
 var ErrStackEmpty = errors.New("stack is empty")

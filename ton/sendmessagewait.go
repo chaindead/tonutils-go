@@ -7,7 +7,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/xssnick/tonutils-go/tlb"
+	"github.com/chaindead/tonutils-go/tlb"
 )
 
 var ErrTxWasNotConfirmed = errors.New("transaction was not confirmed in a given deadline, but it may still be confirmed later")

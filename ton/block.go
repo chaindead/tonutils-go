@@ -10,10 +10,10 @@ import (
 	"reflect"
 	"time"
 
-	"github.com/xssnick/tonutils-go/tl"
+	"github.com/chaindead/tonutils-go/tl"
 
-	"github.com/xssnick/tonutils-go/tlb"
-	"github.com/xssnick/tonutils-go/tvm/cell"
+	"github.com/chaindead/tonutils-go/tlb"
+	"github.com/chaindead/tonutils-go/tvm/cell"
 )
 
 func init() {

@@ -2,8 +2,8 @@ package tlb
 
 import (
 	"encoding/binary"
-	"github.com/xssnick/tonutils-go/address"
-	"github.com/xssnick/tonutils-go/tvm/cell"
+	"github.com/chaindead/tonutils-go/address"
+	"github.com/chaindead/tonutils-go/tvm/cell"
 )
 
 func init() {

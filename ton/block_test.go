@@ -2,7 +2,7 @@ package ton
 
 import (
 	"encoding/hex"
-	"github.com/xssnick/tonutils-go/tvm/cell"
+	"github.com/chaindead/tonutils-go/tvm/cell"
 	"testing"
 )
 

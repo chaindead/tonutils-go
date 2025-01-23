@@ -3,8 +3,8 @@ package overlay
 import (
 	"context"
 	"encoding/hex"
-	"github.com/xssnick/tonutils-go/adnl/rldp"
-	"github.com/xssnick/tonutils-go/tl"
+	"github.com/chaindead/tonutils-go/adnl/rldp"
+	"github.com/chaindead/tonutils-go/tl"
 )
 
 type RLDPOverlayWrapper struct {

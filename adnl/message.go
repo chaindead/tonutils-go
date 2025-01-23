@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"crypto/sha256"
 	"fmt"
-	"github.com/xssnick/tonutils-go/tl"
+	"github.com/chaindead/tonutils-go/tl"
 	"sync"
 	"time"
 )

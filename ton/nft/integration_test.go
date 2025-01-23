@@ -10,13 +10,13 @@ import (
 	"testing"
 	"time"
 
-	"github.com/xssnick/tonutils-go/address"
+	"github.com/chaindead/tonutils-go/address"
 
-	"github.com/xssnick/tonutils-go/liteclient"
-	"github.com/xssnick/tonutils-go/tlb"
-	"github.com/xssnick/tonutils-go/ton"
-	"github.com/xssnick/tonutils-go/ton/wallet"
-	"github.com/xssnick/tonutils-go/tvm/cell"
+	"github.com/chaindead/tonutils-go/liteclient"
+	"github.com/chaindead/tonutils-go/tlb"
+	"github.com/chaindead/tonutils-go/ton"
+	"github.com/chaindead/tonutils-go/ton/wallet"
+	"github.com/chaindead/tonutils-go/tvm/cell"
 )
 
 var api = func() ton.APIClientWrapped {

@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"crypto/ed25519"
 	"encoding/hex"
-	"github.com/xssnick/tonutils-go/tvm/cell"
+	"github.com/chaindead/tonutils-go/tvm/cell"
 	"net"
 	"testing"
 )

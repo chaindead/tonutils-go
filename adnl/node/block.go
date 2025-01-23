@@ -1,6 +1,6 @@
 package node
 
-import "github.com/xssnick/tonutils-go/tl"
+import "github.com/chaindead/tonutils-go/tl"
 
 func init() {
 	tl.Register(BlockIDExt{}, "tonNode.blockIdExt workchain:int shard:long seqno:int root_hash:int256 file_hash:int256 = tonNode.BlockIdExt")

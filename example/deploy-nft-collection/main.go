@@ -4,16 +4,16 @@ import (
 	"context"
 	"encoding/hex"
 	"fmt"
-	"github.com/xssnick/tonutils-go/address"
-	"github.com/xssnick/tonutils-go/ton/nft"
-	"github.com/xssnick/tonutils-go/tvm/cell"
+	"github.com/chaindead/tonutils-go/address"
+	"github.com/chaindead/tonutils-go/ton/nft"
+	"github.com/chaindead/tonutils-go/tvm/cell"
 	"log"
 	"strings"
 
-	"github.com/xssnick/tonutils-go/liteclient"
-	"github.com/xssnick/tonutils-go/tlb"
-	"github.com/xssnick/tonutils-go/ton"
-	"github.com/xssnick/tonutils-go/ton/wallet"
+	"github.com/chaindead/tonutils-go/liteclient"
+	"github.com/chaindead/tonutils-go/tlb"
+	"github.com/chaindead/tonutils-go/ton"
+	"github.com/chaindead/tonutils-go/ton/wallet"
 )
 
 func main() {
@@ -86,8 +86,8 @@ func getContractData(collectionOwnerAddr, royaltyAddr *address.Address) *cell.Ce
 	//           = Storage;
 
 	royalty := cell.BeginCell().
-		MustStoreUInt(5, 16). // 5% royalty
-		MustStoreUInt(100, 16). // denominator
+		MustStoreUInt(5, 16).       // 5% royalty
+		MustStoreUInt(100, 16).     // denominator
 		MustStoreAddr(royaltyAddr). // fee addr destination
 		EndCell()
 

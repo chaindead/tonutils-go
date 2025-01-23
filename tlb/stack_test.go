@@ -6,7 +6,7 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/xssnick/tonutils-go/tvm/cell"
+	"github.com/chaindead/tonutils-go/tvm/cell"
 )
 
 func TestStack_ToCell(t *testing.T) {

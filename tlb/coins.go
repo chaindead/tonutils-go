@@ -6,7 +6,7 @@ import (
 	"math/big"
 	"strings"
 
-	"github.com/xssnick/tonutils-go/tvm/cell"
+	"github.com/chaindead/tonutils-go/tvm/cell"
 )
 
 var errInvalid = errors.New("invalid string")

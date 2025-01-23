@@ -3,9 +3,9 @@ package main
 import (
 	"context"
 	"encoding/json"
-	"github.com/xssnick/tonutils-go/address"
-	"github.com/xssnick/tonutils-go/liteclient"
-	"github.com/xssnick/tonutils-go/ton"
+	"github.com/chaindead/tonutils-go/address"
+	"github.com/chaindead/tonutils-go/liteclient"
+	"github.com/chaindead/tonutils-go/ton"
 	"log"
 	"os"
 )

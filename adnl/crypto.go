@@ -4,10 +4,10 @@ import (
 	"crypto/aes"
 	"crypto/cipher"
 	"crypto/ed25519"
+	"github.com/chaindead/tonutils-go/tl"
 	"github.com/oasisprotocol/curve25519-voi/curve"
 	ed25519crv "github.com/oasisprotocol/curve25519-voi/primitives/ed25519"
 	"github.com/oasisprotocol/curve25519-voi/primitives/x25519"
-	"github.com/xssnick/tonutils-go/tl"
 )
 
 // SharedKey - Generate encryption key based on our and server key, ECDH algorithm

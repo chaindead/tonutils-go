@@ -8,10 +8,10 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/xssnick/tonutils-go/address"
-	"github.com/xssnick/tonutils-go/ton"
-	"github.com/xssnick/tonutils-go/ton/nft"
-	"github.com/xssnick/tonutils-go/tvm/cell"
+	"github.com/chaindead/tonutils-go/address"
+	"github.com/chaindead/tonutils-go/ton"
+	"github.com/chaindead/tonutils-go/ton/nft"
+	"github.com/chaindead/tonutils-go/tvm/cell"
 )
 
 var ErrNoSuchRecord = fmt.Errorf("no such dns record")

@@ -1,6 +1,6 @@
 package http
 
-import "github.com/xssnick/tonutils-go/tl"
+import "github.com/chaindead/tonutils-go/tl"
 
 func init() {
 	tl.Register(Request{}, "http.request id:int256 method:string url:string http_version:string headers:(vector http.header) = http.Response")

@@ -22,8 +22,8 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/xssnick/tonutils-go/adnl"
-	"github.com/xssnick/tonutils-go/tl"
+	"github.com/chaindead/tonutils-go/adnl"
+	"github.com/chaindead/tonutils-go/tl"
 )
 
 type connection struct {

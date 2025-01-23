@@ -7,11 +7,11 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/xssnick/tonutils-go/ton"
+	"github.com/chaindead/tonutils-go/ton"
 
-	"github.com/xssnick/tonutils-go/address"
-	"github.com/xssnick/tonutils-go/tlb"
-	"github.com/xssnick/tonutils-go/tvm/cell"
+	"github.com/chaindead/tonutils-go/address"
+	"github.com/chaindead/tonutils-go/tlb"
+	"github.com/chaindead/tonutils-go/tvm/cell"
 )
 
 type TonApi interface {

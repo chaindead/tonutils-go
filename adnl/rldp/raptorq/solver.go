@@ -4,7 +4,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/xssnick/tonutils-go/adnl/rldp/raptorq/discmath"
+	"github.com/chaindead/tonutils-go/adnl/rldp/raptorq/discmath"
 )
 
 var ErrNotEnoughSymbols = errors.New("not enough symbols")

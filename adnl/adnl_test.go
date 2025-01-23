@@ -4,7 +4,7 @@ import (
 	"context"
 	"crypto/ed25519"
 	"fmt"
-	"github.com/xssnick/tonutils-go/tl"
+	"github.com/chaindead/tonutils-go/tl"
 	"testing"
 	"time"
 )

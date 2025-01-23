@@ -1,8 +1,8 @@
 package tlb
 
 import (
-	"github.com/xssnick/tonutils-go/address"
-	"github.com/xssnick/tonutils-go/tvm/cell"
+	"github.com/chaindead/tonutils-go/address"
+	"github.com/chaindead/tonutils-go/tvm/cell"
 )
 
 type TickTock struct {

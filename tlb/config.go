@@ -1,6 +1,6 @@
 package tlb
 
-import "github.com/xssnick/tonutils-go/tvm/cell"
+import "github.com/chaindead/tonutils-go/tvm/cell"
 
 func init() {
 	Register(ValidatorSet{})

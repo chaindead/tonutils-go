@@ -4,11 +4,11 @@ import (
 	"context"
 	"errors"
 	"fmt"
-	"github.com/xssnick/tonutils-go/tlb"
+	"github.com/chaindead/tonutils-go/tlb"
 	"math/big"
 	"time"
 
-	"github.com/xssnick/tonutils-go/tvm/cell"
+	"github.com/chaindead/tonutils-go/tvm/cell"
 )
 
 // converted to hex from https://github.com/toncenter/tonweb/blob/0a5effd36a3f342f4aacabab728b1f9747085ad1/src/contract/wallet/WalletSourcesFromCPP.txt#L18

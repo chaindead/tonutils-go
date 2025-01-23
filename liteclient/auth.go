@@ -3,8 +3,8 @@ package liteclient
 import (
 	"crypto/ed25519"
 	"fmt"
-	"github.com/xssnick/tonutils-go/adnl"
-	"github.com/xssnick/tonutils-go/tl"
+	"github.com/chaindead/tonutils-go/adnl"
+	"github.com/chaindead/tonutils-go/tl"
 )
 
 func (n *connection) authRequest() error {

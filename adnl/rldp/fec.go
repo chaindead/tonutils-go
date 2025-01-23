@@ -1,6 +1,6 @@
 package rldp
 
-import "github.com/xssnick/tonutils-go/tl"
+import "github.com/chaindead/tonutils-go/tl"
 
 func init() {
 	tl.Register(FECRaptorQ{}, "fec.raptorQ data_size:int symbol_size:int symbols_count:int = fec.Type")

@@ -1,7 +1,7 @@
 package rldp
 
 import (
-	"github.com/xssnick/tonutils-go/tl"
+	"github.com/chaindead/tonutils-go/tl"
 )
 
 func init() {

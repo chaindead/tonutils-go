@@ -1,6 +1,6 @@
 package node
 
-import "github.com/xssnick/tonutils-go/tl"
+import "github.com/chaindead/tonutils-go/tl"
 
 func init() {
 	tl.Register(ShardPublicOverlayID{}, "tonNode.shardPublicOverlayId workchain:int shard:long zero_state_file_hash:int256 = tonNode.ShardPublicOverlayId")

@@ -1,6 +1,6 @@
 package liteclient
 
-import "github.com/xssnick/tonutils-go/tl"
+import "github.com/chaindead/tonutils-go/tl"
 
 func init() {
 	tl.Register(LiteServerQuery{}, "liteServer.query data:bytes = Object")

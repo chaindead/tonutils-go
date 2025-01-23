@@ -3,10 +3,10 @@ package main
 import (
 	"context"
 	"fmt"
-	"github.com/xssnick/tonutils-go/address"
-	"github.com/xssnick/tonutils-go/liteclient"
-	"github.com/xssnick/tonutils-go/tlb"
-	"github.com/xssnick/tonutils-go/ton"
+	"github.com/chaindead/tonutils-go/address"
+	"github.com/chaindead/tonutils-go/liteclient"
+	"github.com/chaindead/tonutils-go/tlb"
+	"github.com/chaindead/tonutils-go/ton"
 	"log"
 )
 

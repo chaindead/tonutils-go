@@ -4,7 +4,7 @@ import (
 	"context"
 	"time"
 
-	"github.com/xssnick/tonutils-go/tl"
+	"github.com/chaindead/tonutils-go/tl"
 )
 
 type timeoutClient struct {

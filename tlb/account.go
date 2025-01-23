@@ -7,8 +7,8 @@ import (
 
 	"github.com/sigurn/crc16"
 
-	"github.com/xssnick/tonutils-go/address"
-	"github.com/xssnick/tonutils-go/tvm/cell"
+	"github.com/chaindead/tonutils-go/address"
+	"github.com/chaindead/tonutils-go/tvm/cell"
 )
 
 type AccountStatus string

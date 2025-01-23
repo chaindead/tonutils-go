@@ -10,7 +10,7 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/xssnick/tonutils-go/address"
+	"github.com/chaindead/tonutils-go/address"
 )
 
 func TestLoadCell_LoadDict(t *testing.T) {

@@ -5,8 +5,8 @@ import (
 	"encoding/binary"
 	"errors"
 	"fmt"
-	"github.com/xssnick/tonutils-go/adnl/address"
-	"github.com/xssnick/tonutils-go/tl"
+	"github.com/chaindead/tonutils-go/adnl/address"
+	"github.com/chaindead/tonutils-go/tl"
 )
 
 type PacketContent struct {

@@ -2,8 +2,8 @@ package wallet
 
 import (
 	"context"
-	"github.com/xssnick/tonutils-go/ton"
-	"github.com/xssnick/tonutils-go/tvm/cell"
+	"github.com/chaindead/tonutils-go/ton"
+	"github.com/chaindead/tonutils-go/tvm/cell"
 )
 
 type RegularBuilder interface {

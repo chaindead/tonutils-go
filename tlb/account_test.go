@@ -7,7 +7,7 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/xssnick/tonutils-go/tvm/cell"
+	"github.com/chaindead/tonutils-go/tvm/cell"
 )
 
 func TestAccountState_LoadFromCell(t *testing.T) {

@@ -6,7 +6,7 @@ import (
 	"crypto/ed25519"
 	"encoding/hex"
 	"fmt"
-	"github.com/xssnick/tonutils-go/tl"
+	"github.com/chaindead/tonutils-go/tl"
 	"net"
 	"sync"
 	"time"

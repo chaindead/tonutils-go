@@ -15,13 +15,13 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/xssnick/tonutils-go/adnl"
+	"github.com/chaindead/tonutils-go/adnl"
 
-	"github.com/xssnick/tonutils-go/ton"
+	"github.com/chaindead/tonutils-go/ton"
 
-	"github.com/xssnick/tonutils-go/address"
-	"github.com/xssnick/tonutils-go/tlb"
-	"github.com/xssnick/tonutils-go/tvm/cell"
+	"github.com/chaindead/tonutils-go/address"
+	"github.com/chaindead/tonutils-go/tlb"
+	"github.com/chaindead/tonutils-go/tvm/cell"
 )
 
 type Version int

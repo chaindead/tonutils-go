@@ -12,9 +12,9 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/xssnick/tonutils-go/adnl"
-	"github.com/xssnick/tonutils-go/adnl/overlay"
-	"github.com/xssnick/tonutils-go/tl"
+	"github.com/chaindead/tonutils-go/adnl"
+	"github.com/chaindead/tonutils-go/adnl/overlay"
+	"github.com/chaindead/tonutils-go/tl"
 )
 
 const _MaxFailCount = 3

@@ -14,7 +14,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/xssnick/tonutils-go/address"
+	"github.com/chaindead/tonutils-go/address"
 )
 
 func main() {

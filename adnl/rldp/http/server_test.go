@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"context"
 	"crypto/ed25519"
-	"github.com/xssnick/tonutils-go/tl"
+	"github.com/chaindead/tonutils-go/tl"
 	"net/http"
 	"reflect"
 	"testing"

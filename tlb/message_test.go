@@ -5,8 +5,8 @@ import (
 	"encoding/hex"
 	"testing"
 
-	"github.com/xssnick/tonutils-go/address"
-	"github.com/xssnick/tonutils-go/tvm/cell"
+	"github.com/chaindead/tonutils-go/address"
+	"github.com/chaindead/tonutils-go/tvm/cell"
 )
 
 func TestInternalMessage_ToCell(t *testing.T) { // need to deploy contract on test-net - > than change config to test-net.

@@ -5,9 +5,9 @@ import (
 	"context"
 	"crypto/ed25519"
 	"fmt"
-	"github.com/xssnick/tonutils-go/address"
-	"github.com/xssnick/tonutils-go/tlb"
-	"github.com/xssnick/tonutils-go/tvm/cell"
+	"github.com/chaindead/tonutils-go/address"
+	"github.com/chaindead/tonutils-go/tlb"
+	"github.com/chaindead/tonutils-go/tvm/cell"
 )
 
 const DefaultSubwallet = 698983191

@@ -7,10 +7,10 @@ import (
 	"log"
 	"math/big"
 
-	"github.com/xssnick/tonutils-go/address"
-	"github.com/xssnick/tonutils-go/liteclient"
-	"github.com/xssnick/tonutils-go/ton"
-	"github.com/xssnick/tonutils-go/tvm/cell"
+	"github.com/chaindead/tonutils-go/address"
+	"github.com/chaindead/tonutils-go/liteclient"
+	"github.com/chaindead/tonutils-go/ton"
+	"github.com/chaindead/tonutils-go/tvm/cell"
 )
 
 func main() {

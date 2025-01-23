@@ -2,8 +2,8 @@ package dns
 
 import (
 	"context"
-	"github.com/xssnick/tonutils-go/liteclient"
-	"github.com/xssnick/tonutils-go/ton"
+	"github.com/chaindead/tonutils-go/liteclient"
+	"github.com/chaindead/tonutils-go/ton"
 	"testing"
 	"time"
 )
