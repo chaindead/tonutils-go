@@ -5,11 +5,11 @@ import (
 	"crypto/ed25519"
 	"encoding/hex"
 	"fmt"
-	"github.com/chaindead/tonutils-go/adnl"
-	"github.com/chaindead/tonutils-go/tl"
-	"reflect"
 	"sync"
 	"time"
+
+	"github.com/chaindead/tonutils-go/adnl"
+	"github.com/chaindead/tonutils-go/tl"
 )
 
 const _PacketWaitTime = 15 * time.Millisecond
@@ -139,11 +139,7 @@ func (a *ADNLWrapper) customHandler(msg *adnl.MessageCustom) error {
 
 		switch t := obj.(type) {
 		case Broadcast:
-			var gh any
-			_, _ = tl.Parse(&gh, t.Data, true)
-			println("BROADCAST", reflect.TypeOf(gh).String())
 		case BroadcastFECShort:
-			println("BROADCAST SHORT", t.Seqno, t.BroadcastHash)
 		case BroadcastFEC:
 			if err := o.processFECBroadcast(&t); err != nil {
 				return fmt.Errorf("failed to process FEC broadcast: %w", err)
