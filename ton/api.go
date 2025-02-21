@@ -12,6 +12,7 @@ import (
 	"github.com/chaindead/tonutils-go/tl"
 	"github.com/chaindead/tonutils-go/tlb"
 	"github.com/chaindead/tonutils-go/tvm/cell"
+	"golang.org/x/time/rate"
 )
 
 func init() {
@@ -156,6 +157,14 @@ func (c *APIClient) WithTimeout(timeout time.Duration) APIClientWrapped {
 	return &APIClient{
 		parent:           c,
 		client:           &timeoutClient{original: c.client, timeout: timeout},
+		proofCheckPolicy: c.proofCheckPolicy,
+	}
+}
+
+func (c *APIClient) WithLimit(r rate.Limit, b int) *APIClient {
+	return &APIClient{
+		parent:           c,
+		client:           Limit(c.client, r, b),
 		proofCheckPolicy: c.proofCheckPolicy,
 	}
 }
